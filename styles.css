@@ -4,11 +4,11 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 p {
     font-size: x-large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #parentGrid{
@@ -56,4 +56,20 @@ p {
 
 .square {
     width: 30px;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    border: 1px;
+    border: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+#resetBtn {
+    margin-top: 20px;
 }
