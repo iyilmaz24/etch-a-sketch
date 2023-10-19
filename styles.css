@@ -8,12 +8,43 @@ body {
 
 p {
     font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #parentGrid{
     display: flex;
     flex-direction: column;
     align-content: center;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+#square1-1{
+    border-top-left-radius: 10px;
+}
+
+#square1-16{
+    border-top-right-radius: 10px;
+}
+
+#square16-1{
+    border-bottom-left-radius: 10px;
+}
+
+#square16-16{
+    border-bottom-right-radius: 10px;
+}
+
+#row1 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#row16 {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .row{

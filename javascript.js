@@ -6,7 +6,7 @@ for(let i = 1; i <= 16; i++){
     rowId = "row" + i;
     row.setAttribute("id", rowId);
     row.setAttribute("class", "row");
-    
+
     for(let j = 1; j <= 16; j++){
         square = document.createElement('div');
         squareId = "square" + i + "-" + j;
@@ -16,8 +16,6 @@ for(let i = 1; i <= 16; i++){
     parentGrid.appendChild(row);
 }
 
-rows = document.getElementsByClassName("row");
 
-rows[0].style.backgroundColor = "red";
 
 
