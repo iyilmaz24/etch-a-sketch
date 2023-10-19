@@ -53,3 +53,7 @@ p {
     height: 30px;
     width: 480px;
 }
+
+.square:hover{
+    background-color: black;
+}
