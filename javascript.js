@@ -20,4 +20,11 @@ for(let i = 1; i <= 16; i++){
     parentGrid.appendChild(row);
 }
     
+reset_button = document.getElementById("resetBtn")
+reset_button.addEventListener("click", () => {
+    squares = document.getElementsByClassName("square");
+    for(let i = 0; i < squares.length; i++){
+        squares[i].style.backgroundColor = null;
+    }
+})
 
