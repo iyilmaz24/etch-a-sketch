@@ -11,12 +11,13 @@ for(let i = 1; i <= 16; i++){
         square = document.createElement('div');
         squareId = "square" + i + "-" + j;
         square.setAttribute("id", squareId);
-        square.setAttribute("class", "square")
+        square.setAttribute("class", "square");
+        square.addEventListener("mouseover", (e) => {
+            e.target.style.backgroundColor = "black";
+        })
         row.appendChild(square);
     }
     parentGrid.appendChild(row);
 }
-
-
-
+    
 
